@@ -1,7 +1,7 @@
 name: "minedustry"
 displayName: "Minedustry"
 author: MaxiGHG
-description: "This Mod adds a few things from Minecraft as well as the factories to produce them."
+description: "This Mindustry mod adds a few mobs, blocks and items from Minecraft as well as factories to produce them."
 version: "0.1"
 minGameVersion: "146"
 hidden: false
