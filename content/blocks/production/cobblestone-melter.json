@@ -17,5 +17,37 @@
     "power": 1.2
     },
   "outputLiquids": ["minedustry-lava/0.133333333333"],
-  "requirements": ["copper/20","lead/10","graphite/20","silicon/10"]
+  "requirements": ["copper/30","lead/10","graphite/25","silicon/15"],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom",
+        "layer": 1
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "minedustry-lava",
+        "layer": 2,
+        "padLeft": 2,
+        "padRight": 2,
+        "padTop": 2,
+        "padBottom":2,
+        "alpha": 0.8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spin",
+        "spinSprite": true,
+        "rotateSpeed": 0.4,
+        "warmup": true,
+        "layer": 3
+      },
+      {
+        "type": "DrawDefault",
+        "layer": 4
+      }
+    ]
+  }
 }

@@ -1,0 +1,6 @@
+{
+    "type": "StatusEffect",
+    "name": "Regeneration",
+    "description": "Heals affected units, is relatively weak.",
+    "damage": -0.2
+}

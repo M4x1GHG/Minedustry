@@ -1,0 +1,8 @@
+{
+    "type": "StatusEffect",
+    "name": "Absorbtion",
+    "description": "Temporarely increases a units max HP.",
+    "affinities": [],
+    "opposites": [],
+    "healthMultiplier": 1.2
+}

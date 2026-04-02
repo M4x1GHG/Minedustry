@@ -1,0 +1,8 @@
+{
+    "type": "StatusEffect",
+    "name": "Levitation",
+    "description": "Makes units slightly hover over the ground greatly slowing them down.",
+    "affinities": [],
+    "opposites": [],
+    "dragMultiplier": 15.0
+}

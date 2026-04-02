@@ -8,7 +8,7 @@
   "hasItems": true,
   "hasLiquid": true,
   "hasPower": true,
-  "itemCapacity": 20,
+  "itemCapacity": 60,
   "liquidCapacity": 30,
   "category": "crafting",
   "craftTime": 400,
@@ -18,5 +18,26 @@
     "power": 1.6
     },
   "outputItems": ["minedustry-diamond/1"],
-  "requirements": ["titanium/50", "graphite/30", "plastanium/15"]
+  "requirements": ["titanium/50", "graphite/30", "plastanium/15"],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawPistons",
+        "sides": 8,
+        "sinMag": 6,
+        "sinScl": 31.5,
+        "lenOffset": 5,
+        "horiOffset": 0,
+        "warmup": true
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
 }

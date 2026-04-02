@@ -1,17 +1,16 @@
-
 {
   "type": "mech",
-  "description": "Minecraft Bogged",
-  "name": "Bogged",
+  "description": "Minecraft Parched",
+  "name": "Parched",
   "speed": 0.85,
   "hitSize": 7,
-  "health": 400,
+  "health": 500,
   "rotateSpeed": 7,
   "canDrown": false,
-  "immunities": ["corroded"],
+  "immunities": ["burning"],
   "weapons":[
     {
-    "name": "bogged-weapon-R",
+    "name": "parched-weapon-R",
     "x": 2.5,
     "y": 3,
     "shootY": 0,
@@ -35,7 +34,7 @@
     }
       },
     {
-    "name": "bogged-weapon-L",
+    "name": "parched-weapon-L",
     "x": -2.5,
     "y": 3.8,
     "targetAir": true,
@@ -62,8 +61,8 @@
       "shootEffect": "none",
       "smokeEffect": "none",
       "homing": 0.1,
-      "status": "corroded",
-      "statusDuration": 900
+      "status": "sapped",
+      "statusDuration": 600
      }
     }
   ]

@@ -16,5 +16,35 @@
     "power": 1
     },
   "outputItems": ["minedustry-redstone/2"],
-  "requirements": ["titanium/35", "diamond/10", "plastanium/20", "thorium/30"]
+  "requirements": ["titanium/35", "diamond/10", "plastanium/20", "thorium/30"],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom",
+        "layer": 1
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spin",
+        "spinSprite": true,
+        "rotateSpeed": 3,
+        "warmup": true,
+        "layer": 2
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spin",
+        "spinSprite": true,
+        "rotateSpeed": -3,
+        "warmup": true,
+        "layer": 3
+      },
+      {
+        "type": "DrawDefault",
+        "layer": 4
+      }
+    ]
+  }
 }

@@ -1,0 +1,8 @@
+{
+    "type": "StatusEffect",
+    "name": "Poison",
+    "description": "Damages affected units, is relatively weak.",
+    "intervalDamage": 5,
+    "intervalDamageTime": 30,
+    "affinities": ["wither-effect", "corroded"]
+}

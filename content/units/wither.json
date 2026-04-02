@@ -1,0 +1,95 @@
+
+{
+  "type": "flying",
+  "description": "Minecraft Wither",
+  "name": "Wither",
+  "speed": 1,
+  "hitSize": 12,
+  "health": 12000,
+  "rotateSpeed": 4,
+  "immunities": ["sapped", "corroded"],
+  "flying": true,
+  "engineSize": 0.8,
+  "engineOffset": 2,
+  "weapons":[
+
+    {
+    "name": "wither-side-skulls",
+    "x": 5,
+    "y": 0,
+    "targetAir": true,
+    "targetGround": true,
+    "rotate": true,
+    "reload": 35,
+    "shootCone": 12,
+    "shootSound": "shoot",
+    "top": true,
+    "shootY": 0,
+    "mirror": true,
+    "recoil": 0.3,
+    "bullet": {
+      "type": "BasicBulletType",
+      "sprite": "minedustry-wither-skull",
+      "speed": 3.5,
+      "damage": 110,
+      "lifetime": 72,
+      "width": 3,
+      "height": 3,
+      "shrinkY": 0,
+      "shootEffect": "none",
+      "status": "sapped",
+      "statusDuration": 900
+    }
+      },
+
+    {
+    "name": "wither-middle-skull",
+    "x": 0,
+    "y": 0,
+    "targetAir": true,
+    "targetGround": true,
+    "rotate": true,
+    "reload": 100,
+    "shootCone": 12,
+    "shootSound": "shoot",
+    "recoil": 0.5,
+    "top": true,
+    "mirror": false,
+    "shootY": 0,
+    "bullet": {
+      "type": "BasicBulletType",
+      "sprite": "minedustry-wither-blue-skull",
+      "speed": 2.2,
+      "damage": 150,
+      "splashDamage": 250,
+      "splashDamageRadius": 20,
+      "lifetime": 90,
+      "width": 4,
+      "height": 4,
+      "shrinkY": 0,
+      "shootEffect": "none",
+      "status": "corroded",
+      "statusDuration": 600
+     }
+    },
+
+    {
+    "name": "wither-skeleton-spawn",
+    "x": 0,
+    "y": 0,
+    "reload": 1200,
+    "shootSound": "none",
+    "top": false,
+    "mirror": false,
+    "shootY": 0,
+    "shoot": {
+      "shots": 3,
+      "shotDelay": 6
+    },
+    "bullet": {
+      "type": "BasicBulletType",
+      "spawnUnit": "wither-skeleton"
+     }
+    }
+  ]
+}

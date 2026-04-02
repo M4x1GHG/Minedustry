@@ -1,17 +1,17 @@
 
 {
   "type": "mech",
-  "description": "Minecraft Bogged",
-  "name": "Bogged",
+  "description": "Minecraft Skeleton",
+  "name": "Skeleton",
   "speed": 0.85,
   "hitSize": 7,
-  "health": 400,
+  "health": 200,
   "rotateSpeed": 7,
   "canDrown": false,
-  "immunities": ["corroded"],
+  "immunities": ["sapped"],
   "weapons":[
     {
-    "name": "bogged-weapon-R",
+    "name": "skeleton-weapon-R",
     "x": 2.5,
     "y": 3,
     "shootY": 0,
@@ -35,7 +35,7 @@
     }
       },
     {
-    "name": "bogged-weapon-L",
+    "name": "skeleton-weapon-L",
     "x": -2.5,
     "y": 3.8,
     "targetAir": true,
@@ -53,7 +53,7 @@
       "type": "BasicBulletType",
       "sprite": "minedustry-arrow-projectile",
       "speed": 5,
-      "damage": 30,
+      "damage": 25,
       "lifetime": 34,
       "width": 2.3,
       "height": 5,
@@ -61,9 +61,7 @@
       "despawnEffect": "none",
       "shootEffect": "none",
       "smokeEffect": "none",
-      "homing": 0.1,
-      "status": "corroded",
-      "statusDuration": 900
+      "homing": 0.1
      }
     }
   ]

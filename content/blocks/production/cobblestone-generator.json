@@ -1,7 +1,7 @@
 {
-  "type": "GenericCrafter",
+  "type": "AttributeCrafter",
   "name": "Cobblestone Generator",
-  "description": "Melts sand, only to then immediately cool it down into cobblestone with water.",
+  "description": "Extracts lava from the earths crust to generate cobblestone using water. More efficient in hot places.",
   "health": 1700,
   "size": 3,
   "buildTime": 550,
@@ -11,24 +11,45 @@
   "itemCapacity": 20,
   "liquidCapacity": 30,
   "category": "crafting",
-  "craftTime": 15,
+  "craftTime": 20,
+  "updateEffect": "smoke",
+  "updateEffectChance": 0.1,
+  "ambientSound": "steam",
+  "ambientSoundVolume": 0.1,
+
   "consumes": {
-    "items": ["sand/1"],
     "liquids": ["water/0.1"],
     "power": 1.3
     },
+
+  "attribute": "heat",
+  "baseEfficiency": 0.1,
+  "boostScale": 0.4,
+  "minEfficiency": 0.1,
+  "maxBoost": 0.9,
+
   "outputItems": ["minedustry-cobblestone-item/1"],
   "requirements": ["copper/35", "graphite/10", "lead/15"],
 
-  "draw": [
-    {
-      "type": "DrawRegion"
-    },
-    {
-      "type": "DrawAnimation",
-      "suffix": "-frame",
-      "frames": 2,
-      "frameTime": 5
-    }
-  ]
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawPistons",
+        "sides": 2,
+        "sinMag": 4,
+        "sinScl": 1.9,
+        "lenOffset": 3.9,
+        "horiOffset": 0,
+        "warmup": true
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
 }

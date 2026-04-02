@@ -1,19 +1,18 @@
-
 {
   "type": "mech",
-  "description": "Minecraft Bogged",
-  "name": "Bogged",
-  "speed": 0.85,
+  "description": "Minecraft Wither Skeleton",
+  "name": "Wither Skeleton",
+  "speed": 0.8,
   "hitSize": 7,
   "health": 400,
   "rotateSpeed": 7,
   "canDrown": false,
-  "immunities": ["corroded"],
+  "immunities": ["corroded", "sapped"],
   "weapons":[
     {
-    "name": "bogged-weapon-R",
-    "x": 2.5,
-    "y": 3,
+    "name": "wither-skeleton-weapon-L",
+    "x": -2.5,
+    "y": 4,
     "shootY": 0,
     "noAttack": true,
     "display": false,
@@ -35,36 +34,35 @@
     }
       },
     {
-    "name": "bogged-weapon-L",
-    "x": -2.5,
-    "y": 3.8,
+    "name": "wither-skeleton-weapon-R",
+    "x": 2.5,
+    "y": 4,
+    "shootY": 0,
     "targetAir": true,
     "targetGround": true,
     "rotate": false,
-    "reload": 40,
-    "shootCone": 35,
-    "inacuracy": 2,
+    "reload": 30,
+    "shootCone": 5,
     "shootSound": "shoot",
-    "recoil": -1,
-    "top": false,
+    "recoil": -3,
+    "top": true,
     "mirror": false,
-    "shootY": 2.0,
     "bullet": {
       "type": "BasicBulletType",
-      "sprite": "minedustry-arrow-projectile",
-      "speed": 5,
-      "damage": 30,
-      "lifetime": 34,
-      "width": 2.3,
-      "height": 5,
+      "speed": 10,
+      "damage": 50,
+      "lifetime": 4,
+      "width": 0,
+      "height": 0,
+      "knockback": 0.5,
+      "impact": true,
       "hitEffect": "none",
       "despawnEffect": "none",
       "shootEffect": "none",
       "smokeEffect": "none",
-      "homing": 0.1,
       "status": "corroded",
-      "statusDuration": 900
-     }
+      "statusDuration": 500
+      }
     }
   ]
-}
+  }
