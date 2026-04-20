@@ -154,7 +154,7 @@
     "unit": "creeper",
     "time": 500,
     "requirements": [
-      "blast-compound/30",
+      "minedustry-gunpowder/10",
       "minedustry-calcite/20",
       "plastanium/20"
     ]
