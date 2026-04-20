@@ -1,7 +1,7 @@
 {
     "type": "Item",
-    "name": "火药",
-    "description": "制作TNT的原材料。",
+    "name": "gunpowder",
+    "description": "The raw materials used to make TNT.",
     "explosiveness": 1,
     "flammability": 1,
     "radioactivity": 0,

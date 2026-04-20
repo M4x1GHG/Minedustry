@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "火药工厂",
-  "description": "合成火药的工厂",
+  "name": "Gunpowder Factory",
+  "description": "Factory for synthesizing gunpowder",
   "health": 500,
   "size": 3,
   "buildTime": 300,
