@@ -9,6 +9,6 @@
   "category": "defense",
   "requirements": [
     "sand/8",
-    "blast-compound/10"
+    "minedustry-gunpowder/1"
   ]
 }
