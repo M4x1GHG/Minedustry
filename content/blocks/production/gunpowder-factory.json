@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "name": "Gunpowder Factory",
   "description": "Factory for synthesizing gunpowder",
-  "health": 500,
+  "health": 1000,
   "size": 3,
   "buildTime": 300,
   "hasItems": true,
@@ -11,10 +11,10 @@
   "category": "crafting",
   "craftTime": 180,
   "consumes": {
-    "items": ["scrap/15","pyratite/2","coal/1"],
+    "items": ["scrap/10","pyratite/2","coal/2"],
     "power": 1
   },
-  "outputItems": ["minedustry-gunpowder/20"],
+  "outputItems": ["minedustry-gunpowder/5"],
   "requirements": ["copper/100","lead/100","titanium/60"],
   "drawer": {
     "type": "DrawMulti",
