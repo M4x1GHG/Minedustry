@@ -1,5 +1,4 @@
 {
-    "type": "StatusEffect",
     "name": "Levitation",
     "description": "Makes units slightly hover over the ground, greatly slowing them down in the process. Not strong enough to fully lift units into the air and does not protect from deep fluids.",
     "affinities": [],

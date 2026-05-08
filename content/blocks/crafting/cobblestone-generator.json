@@ -7,14 +7,12 @@
   "buildTime": 550,
   "hasItems": true,
   "hasPower": true,
-  "hasLiquid": true,
   "itemCapacity": 20,
   "liquidCapacity": 30,
   "category": "crafting",
   "craftTime": 20,
   "updateEffect": "smoke",
   "updateEffectChance": 0.1,
-  "ambientSound": "steam",
   "ambientSoundVolume": 0.1,
 
   "consumes": {
@@ -44,8 +42,7 @@
         "sinMag": 4,
         "sinScl": 1.9,
         "lenOffset": 3.9,
-        "horiOffset": 0,
-        "warmup": true
+        "horiOffset": 0
       },
       {
         "type": "DrawDefault"

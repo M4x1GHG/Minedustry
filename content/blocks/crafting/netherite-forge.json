@@ -26,7 +26,6 @@
       },
       {
         "type": "DrawCrucibleFlame",
-        "warmup": true,
         "flameColor": "2ee0f2",
         "midColor": "94fff1"
       }

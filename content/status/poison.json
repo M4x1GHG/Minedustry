@@ -1,5 +1,4 @@
 {
-    "type": "StatusEffect",
     "name": "Poison",
     "description": "Deals damage over time, is relatively weak.",
     "intervalDamage": 5,

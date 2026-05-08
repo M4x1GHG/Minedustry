@@ -15,8 +15,7 @@
       "type": "ExplosionBulletType",
       "knockback": 6,
       "splashDamage": 200,
-      "splashDamageRadius": 60,
-      "buildingDamage": 0.5
+      "splashDamageRadius": 60
         }
     }
   ]

@@ -38,12 +38,9 @@
     "name": "skeleton-weapon-L",
     "x": -2.5,
     "y": 3.8,
-    "targetAir": true,
-    "targetGround": true,
     "rotate": false,
     "reload": 40,
     "shootCone": 35,
-    "inacuracy": 2,
     "shootSound": "shoot",
     "recoil": -1,
     "top": false,
@@ -60,8 +57,7 @@
       "hitEffect": "none",
       "despawnEffect": "none",
       "shootEffect": "none",
-      "smokeEffect": "none",
-      "homing": 0.1
+      "smokeEffect": "none"
      }
     }
   ]

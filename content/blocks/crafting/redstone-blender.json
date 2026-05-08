@@ -28,15 +28,13 @@
         "type": "DrawRegion",
         "suffix": "-rotator",
         "spinSprite": true,
-        "rotateSpeed": 3,
-        "warmup": true
+        "rotateSpeed": 3
       },
       {
         "type": "DrawRegion",
         "suffix": "-rotator",
         "spinSprite": true,
-        "rotateSpeed": -3,
-        "warmup": true
+        "rotateSpeed": -3
       },
       {
         "type": "DrawDefault"
@@ -44,7 +42,7 @@
     ]
   },
   "research": {
-    "parent":"seperator",
+    "parent":"separator",
     "requirements": ["diamond/30", "thorium/600", "minedustry-obsidian-item/400", "plastanium/500"]
   }
 }

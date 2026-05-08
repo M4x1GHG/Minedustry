@@ -15,8 +15,6 @@
     "x": 3,
     "y": 2,
     "shootY": 0,
-    "targetAir": true,
-    "targetGround": true,
     "rotate": false,
     "reload": 24,
     "shootCone": 4,

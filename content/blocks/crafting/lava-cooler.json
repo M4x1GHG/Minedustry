@@ -6,7 +6,6 @@
   "size": 2,
   "buildTime": 500,
   "hasItems": true,
-  "hasLiquid": true,
   "hasPower": true,
   "itemCapacity": 20,
   "liquidCapacity": 30,

@@ -1,5 +1,4 @@
 {
-    "type": "StatusEffect",
     "name": "Strength",
     "description": "Increases attack damage.",
     "affinities": [],

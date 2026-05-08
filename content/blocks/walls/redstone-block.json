@@ -6,7 +6,6 @@
   "outputsPower": true,
   "powerProduction": 0.166666,
   "category": "defense",
-  "hasLiquid": true,
   "requirements": [
     "redstone/9"
   ]

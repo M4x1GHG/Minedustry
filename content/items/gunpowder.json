@@ -1,5 +1,4 @@
 {
-    "type": "Item",
     "name": "gunpowder",
     "description": "The raw materials used to make TNT.",
     "explosiveness": 1,

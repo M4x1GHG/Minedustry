@@ -39,8 +39,6 @@
     "name": "drowned-weapon-R",
     "x": 3,
     "y": 2,
-    "targetAir": true,
-    "targetGround": true,
     "rotate": false,
     "reload": 100,
     "shootCone": 12,

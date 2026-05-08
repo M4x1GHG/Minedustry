@@ -1,5 +1,4 @@
 {
-    "type": "StatusEffect",
     "name": "Saturation",
     "description": "Gives units more energy, making them more efficient and stronger.",
     "affinities": [],

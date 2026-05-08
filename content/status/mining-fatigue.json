@@ -1,5 +1,4 @@
 {
-    "type": "StatusEffect",
     "name": "Mining Fatigue",
     "description": "Decreases building speed to a minimum, attack speed is also slower as side effect.",
     "affinities": [],

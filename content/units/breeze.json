@@ -31,8 +31,7 @@
       "knockback": 20,
       "splashDamage": 5,
       "splashDamageRadius": 20,
-      "pierce": true,
-      "piercing": 4
+      "pierce": true
     }
       }
   ]

@@ -1,5 +1,4 @@
 {
-    "type": "StatusEffect",
     "name": "Hunger",
     "description": "Drains more energy making units less efficient and weaker.",
     "affinities": [],

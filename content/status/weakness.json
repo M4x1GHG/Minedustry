@@ -1,5 +1,4 @@
 {
-    "type": "StatusEffect",
     "name": "Weakness",
     "description": "Decreases attack damage.",
     "affinities": [],

@@ -6,7 +6,6 @@
   "size": 2,
   "buildTime": 300,
   "hasItems": true,
-  "hasLiquid": true,
   "hasPower": true,
   "itemCapacity": 20,
   "liquidCapacity": 30,
@@ -38,8 +37,7 @@
         "type": "DrawRegion",
         "suffix": "-rotator",
         "spinSprite": true,
-        "rotateSpeed": 0.4,
-        "warmup": true
+        "rotateSpeed": 0.4
       },
       {
         "type": "DrawDefault"

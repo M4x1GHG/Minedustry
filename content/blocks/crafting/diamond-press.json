@@ -6,7 +6,6 @@
   "size": 3,
   "buildTime": 400,
   "hasItems": true,
-  "hasLiquid": true,
   "hasPower": true,
   "itemCapacity": 60,
   "liquidCapacity": 30,
@@ -32,8 +31,7 @@
         "sinMag": 6,
         "sinScl": 31.5,
         "lenOffset": 5,
-        "horiOffset": 0,
-        "warmup": true
+        "horiOffset": 0
       },
       {
         "type": "DrawDefault"

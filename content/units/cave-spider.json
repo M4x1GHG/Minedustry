@@ -53,6 +53,5 @@
   "legSpeed": 0.05,
   "legLength": 8,
   "legGroupSize": 4,
-  "legCount": 8,
-  "drawOutline": false
+  "legCount": 8
 }

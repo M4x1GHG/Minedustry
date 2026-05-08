@@ -4,7 +4,7 @@
   "health": 50,
   "buildTime": 1,
   "baseExplosiveness": 22,
-  "flammabiltyScale": 10,
+  "flammabilityScale": 10,
   "crushFragile": true,
   "category": "defense",
   "requirements": [
